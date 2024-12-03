@@ -1,0 +1,60 @@
+body {
+    background: #F3F6FD;
+}
+
+.btn-getstarted {
+    background: rgb(4, 13, 115);
+    background: linear-gradient(48deg, rgba(4, 13, 115, 1) 0%, rgba(69, 65, 197, 1) 25%, rgba(35, 185, 184, 0.9585084033613446) 50%, rgba(140, 113, 220, 1) 75%, rgba(149, 75, 197, 1) 100%);
+}
+.gradient-text{
+    background: rgb(163,113,220);
+background: linear-gradient(48deg, rgba(163,113,220,1) 7%, rgba(99,9,157,1) 100%);
+background-clip: text;
+color: transparent;
+
+}
+.large-font{
+    font-size: 45px;
+    font-weight: bolder;
+}
+.inwd{
+    inline-size: 400px;
+    line-height: 50px;
+
+}
+.don{
+    border-radius: 10px;
+    display: inline-block;
+    padding: 10px 40px;
+    color: white;
+    background-color: #5E5CE6;
+}
+.right-img{
+    margin-top: 100px;
+}
+.navbar{
+    width: 100%;
+}
+
+.right-img img{
+width: 1000px;
+rotate: 335deg;
+}
+@media only screen and (max-width:540px) {
+
+.left-side{
+    width: 500px;
+    margin:10px auto;
+}
+.right-img img{
+    width: 400px;
+  rotate: 0deg;
+    }
+
+}
+@media only screen and (max-width:992px) {
+    .right-img img{
+        width: 900px;
+      
+        }  
+}
